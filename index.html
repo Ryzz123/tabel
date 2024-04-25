@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        #head {
+            background-color: white !important;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #fff;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr id="head">
+                <th>No</th>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Alamat</th>
+                <th>Semester</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>123456789</td>
+                <td>John Doe</td>
+                <td>123 Main St, City</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>987654321</td>
+                <td>Jane Smith</td>
+                <td>456 Elm St, Town</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>456789123</td>
+                <td>Bob Johnson</td>
+                <td>789 Oak St, Village</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
